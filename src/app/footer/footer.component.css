@@ -1,19 +1,18 @@
 .foot-main{
-    width:1280px;
-    height:350px;
-    position: relative;
-  
-    
-   
+    width:100%;
+    height:auto;
+    position: absolute;
+    top: 300%;
 }
 .foot-top{
     width:100%;
-    height:300px;
+    height:250px;
     position:absolute;
     left:0px;
     top:0px;
     background-color: black;
     opacity:60%;
+    margin-bottom: 30px;
 }
 #img1{
     position: absolute;
@@ -124,7 +123,7 @@
     
 }
 .txt1{
-    color: rgb(73, 231, 73);
+    color: #4a91f2;
     position: absolute;
     left:10px;
     top:0px;
@@ -141,8 +140,12 @@
     width:100%;
     height:50px;
     position:absolute;
-    bottom:0px;
+    bottom: 1px;
     background-color: black;
-  opacity: 80%;
-
+    opacity: 80%;
+    top: 250px;
+}
+.copyright{
+    margin-top: 16%;
+    margin-left: 40%;
 }

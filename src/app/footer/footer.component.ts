@@ -12,8 +12,8 @@ export class FooterComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    this.email="naman.18bcs1103@abes.ac.in"
-    this.number=7017401169;
+    this.email="vishant@gmail.com"
+    this.number=987654321;
   }
   sendmail(){
     

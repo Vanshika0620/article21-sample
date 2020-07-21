@@ -1,0 +1,56 @@
+.features{
+  position: absolute;
+  margin-top: 65%;
+  width: 100%;
+  height: auto;
+}
+h2{
+  text-transform: uppercase;
+  font-weight: 450;
+  font-size: 180%;
+  word-spacing: 2px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+h2:after{
+  display: block;
+  height: 3px;
+  width: 100px;
+  background-color: #4a91f2;
+  content: " ";
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.box{
+  height: 300px;
+  width: 24%;
+  margin-left: 8%;
+  margin-top: 20px;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  color: #000000;
+}
+.heading{
+  font-family: "Open Sans",Arial,sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  font-weight: 200;
+}
+.icon{
+  font-size: 240%;
+    display: block;
+    color: #4a91f2;
+    margin-bottom: 10px;
+}
+.para{
+  font-family: "Open Sans",Arial,sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  font-weight: 200;
+  text-align: justify;
+}
+strong{
+  font-weight: 600;
+}

@@ -1,0 +1,51 @@
+.message{
+  width: 100%;
+  height: auto;
+  background-color: rgba(240, 240, 240, 0.637);
+  margin-top: 95%;
+  padding-top: 20px;
+}
+h2{
+  text-transform: uppercase;
+  font-weight: 450;
+  font-size: 180%;
+  word-spacing: 2px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+h2:after{
+  display: block;
+  height: 3px;
+  width: 100px;
+  background-color: #4a91f2;
+  content: " ";
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.left{
+
+}
+
+.contact-form{
+  width: 60%;
+  margin: 20px;
+  margin-left: 25%;
+  margin-right: 10%;
+
+}
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    height: 100px;
+}
+
+*:focus {outline: none;}
