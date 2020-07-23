@@ -1,6 +1,6 @@
 .main{
   position: absolute;
-  height: 75%;
+  height: 87%;
   width: 100%;
   margin-top: 10px;
   background-image: linear-gradient(to right,rgba(13, 13, 13, 0.945),rgba(13, 13, 13, 0.178)) ,url(../../../assets/hero-image.jpg);
@@ -19,4 +19,50 @@
 }
 .btn{
   border-radius: 20px;
+}
+
+/*Big tablets to 1200px*/
+@media only screen and (max-width: 1200px){
+  .hero-text{
+    left: 60%;
+  }
+}
+
+/*Small tablets to big tablets*/
+@media only screen and (max-width: 1023px){
+  .hero-text{
+    left: 70%;
+  }
+}
+
+/*Small phones to small tablets*/
+@media only screen and (max-width: 767px){
+  .hero-text{
+    left: 90%;
+  }
+  h1{
+    font-weight: 500;
+    font-size: 35px;
+  }
+  p{
+    font-size: 15px;
+  }
+}
+
+/*Small phones*/
+@media only screen and (max-width: 480px){
+  .hero-text{
+    left: 140%;
+  }
+  h1{
+    font-weight: 300;
+    font-size: 25px;
+  }
+  p{
+    font-size: 15px;
+  }
+  .btn{
+    width: 105px;
+    height: 35px;
+  }
 }

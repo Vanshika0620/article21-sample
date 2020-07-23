@@ -3,29 +3,32 @@
   left: 6%;
   right: 6%;
   height: 45%;
-  margin-top:41%;
+  margin-top:35%;
+  /* opacity: 30%; */
 }
 
 .ch{
   position: absolute;
   float: right;
-  height: 90%;
+  height: 110%;
   margin-top: 15px;
   width: 25%;
-  border-radius: 19px;
+  /* border-radius: 19px; */
   font-family: "Open Sans",Arial,sans-serif;
-  color: #000000;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.74);
   text-align: center;
   padding-top: 20px;
-  border: 1px solid rgb(136, 135, 135);
+  border: 1px solid #fff;
   padding-bottom: 20px;
   padding-left: 30px;
   padding-right: 30px;
 }
 h4{
   text-transform: uppercase;
-  font-weight: 450;
-  font-size: 180%;
+  font-weight: 400;
+  font-size: 150%;
+  color: #fff;
   word-spacing: 2px;
   text-align: center;
   letter-spacing: 1px;
@@ -41,23 +44,138 @@ h4:after{
 }
 p{
   text-align: justify;
+  font-weight: 200;
+  color: rgba(245, 241, 241, 0.774);
 }
 .ch:hover{
-  
-  background-color: rgb(223, 223, 223);
   transform: scale(1.03);
   transition: 0.5s;
   
 }
 .legal{
-  right: 70%;
-  background-color: rgba(226, 226, 226, 0.233);
+  right: 66%;
+  /* background-color: rgba(226, 226, 226, 0.233); */
 }
 .gk{
  right: 40%;
- background-color: rgba(226, 226, 226, 0.233);
+ /* background-color: rgba(226, 226, 226, 0.233); */
 }
 .criminal{
-  right: 10%;
-  background-color: rgba(226, 226, 226, 0.233);
+  right: 14%;
+  /* background-color: rgba(226, 226, 226, 0.233); */
+}
+
+
+/* MEDIA QUERIES */
+
+/*Big tablets to 1200px*/
+@media only screen and (max-width: 1200px){
+  .categories{
+    height: 56%;
+    margin-top:45%;
+  }
+}
+
+/*Small tablets to big tablets*/
+@media only screen and (max-width: 1023px){
+  .categories{
+    height: 54%;
+    margin-top:54%;
+  }
+  h4{
+    font-weight: 300;
+    font-size: 100%;
+  }
+  h4:after{
+    height: 1px;
+    width: 80px;
+    
+  }
+  p{
+    font-weight: 150;
+    font-size: 15px;
+  }
+  .gkbutton{
+    position: absolute;
+    right: 40px;
+    top: 80%;
+  }
+  .legalButton{
+    position: absolute;
+    right: 40px;
+    top: 85%;
+  }
+}
+/*Small phones to small tablets*/
+@media only screen and (max-width: 767px){
+  .categories{
+    margin-top: 74%;
+  }
+
+  .ch{
+    height: 105%;
+    width: 30%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  p{
+    font-size: 14px;
+    color: rgba(245, 241, 241, 0.774);
+  }
+  .legal{
+    right: 68%;
+  }
+  .gk{
+   right: 37%;
+  }
+  .criminal{
+    right: 6%;
+  }
+  .gkbutton{
+    position: absolute;
+    right: 30px;
+    top: 80%;
+  }
+  .legalButton{
+    position: absolute;
+    right: 30px;
+    top: 86%;
+  }
+}
+/*Small phones*/
+@media only screen and (max-width: 480px){
+  .categories{
+    margin-top: 125%;
+  }
+  .ch{
+    height: 65%;
+    width: 85%;
+  }
+  .legal{
+    right: 10%;
+  }
+  .gk{
+    top: 66%;
+   right: 10%;
+  }
+  .criminal{
+    top: 132%;
+    right: 10%;
+  }
+  .legalButton{
+    position: absolute;
+    right: 45px;
+    top: 75%;
+  }
+  .gkbutton{
+    position: absolute;
+    right: 35px;
+    top: 65%;
+  }
+  .cButton{
+    position: absolute;
+    top: 80%;
+  }
 }

@@ -194,6 +194,15 @@ nav{
   .nav-hr{
     display: block;
   }
+  /*Small phones*/
+@media only screen and (max-width: 480px){
+  .collapse-icon{
+    margin-right: 20px;
+  }
+  .collapse-search{
+    margin-left: 50%;
+  }
+}
 
  
 }

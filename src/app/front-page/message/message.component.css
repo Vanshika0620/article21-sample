@@ -23,10 +23,6 @@ h2:after{
   margin-top: 10px;
 }
 
-.left{
-
-}
-
 .contact-form{
   width: 60%;
   margin: 20px;
@@ -49,3 +45,47 @@ textarea {
 }
 
 *:focus {outline: none;}
+
+/*Big tablets to 1200px*/
+@media only screen and (max-width: 1200px){
+  .message{
+    margin-top: 130%;
+  }
+}
+
+/*Small tablets to big tablets*/
+@media only screen and (max-width: 1023px){
+  .message{
+    margin-top: 160%;
+  }
+}
+/*Small phones to small tablets*/
+@media only screen and (max-width: 767px){
+  .message{
+    margin-top: 220%;
+  }
+}
+
+/*Small phones*/
+@media only screen and (max-width: 480px){
+  .message{
+    margin-top: 550%;
+  }
+  h2{
+    font-weight: 400;
+    font-size: 130%;
+    word-spacing: 2px;
+  }
+  h2:after{
+    height: 2px;
+    width: 100px;
+    margin-top: 10px;
+  }
+  .contact-form{
+    width: 80%;
+    margin: 20px;
+    margin-left: 12%;
+    margin-right: 10%;
+  
+  }
+}
