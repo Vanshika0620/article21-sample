@@ -3,8 +3,9 @@
   left: 6%;
   right: 6%;
   height: 45%;
-  margin-top:35%;
+  top: 88%;
   /* opacity: 30%; */
+  /* overflow-x: hidden;  */
 }
 
 .ch{
@@ -72,7 +73,7 @@ p{
 @media only screen and (max-width: 1200px){
   .categories{
     height: 56%;
-    margin-top:45%;
+    margin-top:0;
   }
 }
 
@@ -80,7 +81,7 @@ p{
 @media only screen and (max-width: 1023px){
   .categories{
     height: 54%;
-    margin-top:54%;
+    margin-top:1%;
   }
   h4{
     font-weight: 300;
@@ -109,7 +110,7 @@ p{
 /*Small phones to small tablets*/
 @media only screen and (max-width: 767px){
   .categories{
-    margin-top: 74%;
+    margin-top: 2%;
   }
 
   .ch{
@@ -147,7 +148,7 @@ p{
 /*Small phones*/
 @media only screen and (max-width: 480px){
   .categories{
-    margin-top: 125%;
+    margin-top: 5%;
   }
   .ch{
     height: 65%;
@@ -173,6 +174,31 @@ p{
     position: absolute;
     right: 35px;
     top: 65%;
+  }
+  .cButton{
+    position: absolute;
+    top: 80%;
+  }
+}
+@media only screen and (max-width: 350px){
+  .ch{
+    height: 70%;
+  }
+  .gk{
+    top: 70%;
+  }
+  .criminal{
+    top: 140%;
+  }
+  .legalButton{
+    position: absolute;
+    right: 45px;
+    top: 80%;
+  }
+  .gkbutton{
+    position: absolute;
+    right: 35px;
+    top: 70%;
   }
   .cButton{
     position: absolute;

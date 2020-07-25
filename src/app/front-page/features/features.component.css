@@ -1,8 +1,9 @@
 .features{
   position: absolute;
-  margin-top: 65%;
+  top: 150%;
   width: 100%;
   height: auto;
+  /* overflow-x: hidden;  */
 }
 h2{
   text-transform: uppercase;
@@ -58,14 +59,14 @@ strong{
 /*Big tablets to 1200px*/
 @media only screen and (max-width: 1200px){
   .features{
-    margin-top: 90%;
+    margin-top: 6%;
   }
 }
 
 /*Small tablets to big tablets*/
 @media only screen and (max-width: 1023px){
   .features{
-    margin-top: 105%;
+    margin-top: 10%;
   }
   .box{
     height: 300px;
@@ -76,18 +77,27 @@ strong{
 /*Small phones to small tablets*/
 @media only screen and (max-width: 767px){
   .features{
-    margin-top: 140%;
+    margin-top: 10%;
   }
 }
 
 /*Small phones*/
 @media only screen and (max-width: 480px){
   .features{
-    margin-top: 300%;
+    margin-top: 90%;
   }
   .box{
     height: 300px;
     width: 70%;
     margin-left: 15%;
+  }
+}
+
+@media only screen and (max-width: 350px){
+  .features{
+    margin-top: 130%;
+  }
+  .box{
+    height: 340px;
   }
 }

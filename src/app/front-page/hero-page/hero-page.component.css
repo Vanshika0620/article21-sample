@@ -1,11 +1,13 @@
 .main{
   position: absolute;
   height: 87%;
+  top: 12%;
   width: 100%;
   margin-top: 10px;
   background-image: linear-gradient(to right,rgba(13, 13, 13, 0.945),rgba(13, 13, 13, 0.178)) ,url(../../../assets/hero-image.jpg);
   background-size: cover;
   background-position: center;
+  overflow-x: hidden; 
 }
 .hero-text{
   margin: 0;
@@ -64,5 +66,20 @@
   .btn{
     width: 105px;
     height: 35px;
+  }
+}
+
+@media screen and (max-width:350px) {
+  .hero-text{
+    margin-left: 50%;
+  }
+  p{
+    font-size: 10px;
+  }
+  .btn{
+    height: 30px;
+    width: 100px;
+    font-size: 13px;
+    padding-bottom: 20px;
   }
 }
